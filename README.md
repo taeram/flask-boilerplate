@@ -33,14 +33,14 @@ Then, for local development setup:
 
 When deploying to production, ensure the following environment variables are set:
 
-    * `FLASK_ENV` - Must be set to "production". Used to switch to the production configuration.
-    * `SECRET_KEY` - Must be a random hash. Used by to generate secure session hashes.
-    * `PORT` - The port to run the application on. Defaults to 5000.
+* `FLASK_ENV` - Must be set to "production". Used to switch to the production configuration.
+* `SECRET_KEY` - Must be a random hash. Used by to generate secure session hashes.
+* `PORT` - The port to run the application on. Defaults to 5000.
 
 Next, run the `migrate upgrade` and `setup` steps like you did locally:
 
-    * `python manage.py database migrate upgrade`
-    * `python manage.py database setup`
+* `python manage.py database migrate upgrade`
+* `python manage.py database setup`
 
 Upgrading to a new Release
 ==========================
