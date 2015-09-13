@@ -1,0 +1,22 @@
+# Project
+/app/static/js/**/*.js
+/app/static/js/.module-cache/
+/app/static/css/**/*.css
+/.env
+
+# Python
+*.py[cod]
+
+# Installer logs
+pip-log.txt
+
+# Vagrant
+.vagrant
+Vagrantfile
+
+# Node.js
+/node_modules/
+
+# Bower
+/app/static/components/
+/app/static/js/**/*.js

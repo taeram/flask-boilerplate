@@ -1,0 +1,9 @@
+{
+  "name": "flask-boilerplate",
+  "dependencies": {
+    "bootstrap": "3.*",
+    "font-awesome": "4.*",
+    "jquery": "2.*",
+    "requirejs": "2.*"
+  }
+}

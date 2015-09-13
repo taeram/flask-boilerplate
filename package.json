@@ -1,0 +1,24 @@
+{
+  "name": "flask-boilerplate",
+  "description": "Boilerplate code for bootstrapping new Flask applications",
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "bower": "1.*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-react": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taeram/flask-boilerplate"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/grunt"
+  }
+}
