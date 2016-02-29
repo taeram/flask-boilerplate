@@ -12,7 +12,8 @@
     "grunt-cli": "*",
     "grunt-react": "*",
     "grunt-contrib-less": "*",
-    "grunt-contrib-watch": "*"
+    "grunt-contrib-watch": "*",
+    "less-plugin-clean-css": "*"
   },
   "repository": {
     "type": "git",

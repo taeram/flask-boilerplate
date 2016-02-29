@@ -8,7 +8,13 @@ module.exports = function(grunt) {
       production: {
         options: {
           paths: ["app/static/css"],
-          cleancss: true
+          cleancss: true,
+          plugins: [
+            (new (require('less-plugin-clean-css'))({
+              advanced: true,
+              compatibility: 'ie8'
+            }))
+          ]
         },
         files: {
           "app/static/css/style.css": "app/static/css/style.less"
